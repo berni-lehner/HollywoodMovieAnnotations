@@ -13,10 +13,10 @@ This dataset contains the ground truth annotations of four full-length hollywood
 - Saving Private Ryan (1998)
 
 
-In the respective folders, there are remarks of specifically interesting or challenging situations faced while annotating.
+In the respective folders, there are remarks of specifically interesting or challenging situations faced while annotating along with timestamps.
 The .csv files contain the original annotation done with Sonic Visualizer (https://www.sonicvisualiser.org/) and are the most precise.
 The subfolders 20, 50, and 200 contain converted .arff files, where the folder name indicates the corresponding window length.
-That is, the folder named *200* contains annotations for 200 ms each instance in Weka format (https://www.cs.waikato.ac.nz/ml/weka/).
+That is, the folder named *200* contains annotations with 200 ms resolution in .arff format of Weka (https://www.cs.waikato.ac.nz/ml/weka/).
 
 For more information and examples, please visit
 http://www.cp.jku.at/misc/is2015vad/
